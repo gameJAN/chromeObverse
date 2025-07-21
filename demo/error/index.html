@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../../dist/monitor.js"></script>
+    <script>
+        monitor.init({
+            url:'http://localhost:9800/reportData'
+        })
+    </script>
+</head>
+<body>
+    <img src="https://toutian.com/x.png" alt="">
+    <img src="https://toutian.com/x2.png" alt="">
+    <img src="https://toutian.com/x3.png" alt="">
+    <script>
+        function test(){
+            return Promise.reject(Error('promise'))
+        }
+        function test2(){
+            return Promise.reject(Error('async'))
+        }
+        // teest()
+        test()
+        test2()
+        throw Error('test')
+    </script>
+</body>
+</html>
