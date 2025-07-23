@@ -22,6 +22,7 @@ class ErrorBoundary extends React.Component {
     //   info.componentStack,
     //   // 警告：Owner Stack 在生产中不可用
     //   React.captureOwnerStack(),
+    monitor.errorBoundary(error,info.componentStack)
     // );
   }
 
