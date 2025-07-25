@@ -4,11 +4,7 @@
 
 <!-- PROJECT SHIELDS -->
 
-[![Contributors]][contributors-url]
-[![Forks]][forks-url]
-[![Stargazers]][stars-url]
-[![Issues]][issues-url]
-[![MIT License]][license-url]
+
 
 <!-- PROJECT LOGO -->
 <br />
